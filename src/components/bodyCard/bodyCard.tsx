@@ -1,17 +1,20 @@
 import './bodyCard.css';
 import { ImageUser } from '../imageUser/imageUser';
 import { DecribeUser } from '../describeUser/decribeUser';
-import { IProps } from '../../App';
 import { TextField } from '../textField/textField';
+import { AnyComponent } from '../anyComponent/anyComponent';
 
-
-
-export const BodyCard: React.FC<IProps> = (props: IProps) => {
+export const BodyCard: React.FC = () => {
     return (
         <div className="card">
-            <ImageUser />
-            <DecribeUser {...props,}  />
-            <TextField text={props.field}/>
+            <div className="card__first">
+                <ImageUser />
+                <DecribeUser />
+            </div>
+            <div className="card__second">
+                <TextField />
+                <AnyComponent />
+            </div>
         </div>
     );
 };

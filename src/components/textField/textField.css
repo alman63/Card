@@ -1,0 +1,6 @@
+.card__field_p {
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
