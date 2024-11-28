@@ -1,0 +1,14 @@
+.card__decribe {
+    margin: 10px;
+}
+
+.card__decribe h2 {
+    font-size: 1rem;
+}
+.card__decribe h3 {
+    font-size: 0.7rem;
+}
+
+.card__decribe p {
+    font-size: 0.5rem;
+}

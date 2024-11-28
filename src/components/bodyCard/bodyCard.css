@@ -1,0 +1,22 @@
+.card {
+    width: 360px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(171, 171, 218);
+    border-radius: 17px;
+}
+.card__first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.card__second {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2%;
+}
